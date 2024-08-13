@@ -2,14 +2,14 @@
 using namespace std;
 
 int main() {
-    int i=0, *ptr, arr[]={7, 4, 90};
-    cout<<*arr<<endl;
-    ptr=arr;
-    cout<<"All elements: "<<endl;
-    while(i<3){
-        cout<<ptr<<"   "<<*ptr<<endl;
-        //cout<<*ptr<<endl;
-        ptr++;
-        i++;
-    }
+    int a=10;
+int* aptr=&a;
+cout<<*aptr<<endl;
+*aptr=20;
+cout<<a<<endl;
+
+int arr[]={10,20,30};
+cout<<*arr<<endl;
+
+return 0;
 }
