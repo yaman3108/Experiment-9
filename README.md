@@ -14,23 +14,23 @@ Vs Code, Github
 Pointers are variables that hold memory address of other variables. They are crucial for handling large data structures and dynamic memory management
 
 ### Declaring a pointer:
-A pointer is declared by specifying the type of the data it points to, followed by an asterisk (*), and then the pointer variable name.For example: < /br>
-int* ptr;   // Pointer to an integer
-char* cptr; // Pointer to a character
+A pointer is declared by specifying the type of the data it points to, followed by an asterisk (*), and then the pointer variable name.For example: <br/>
+int* ptr;   // Pointer to an integer  <br/>
+char* cptr; // Pointer to a character  <br/>
 
 ### Initializing a pointer:
-To store the address of a variable in a pointer you need to use the & operator.
-int* ptr = &x; // ptr stores the address of x
+To store the address of a variable in a pointer you need to use the & operator. <br/>
+int* ptr = &x; // ptr stores the address of x <br/>
 
 ### De-refrencing a pointer:
-To access the value at the memory location a pointer points to, use the dereference operator (*). 
-cout << *ptr; // Output: 5 (value at the address stored in ptr)
+To access the value at the memory location a pointer points to, use the dereference operator (*).  <br/>
+cout << *ptr; // Output: 5 (value at the address stored in ptr) <br/>
 
 ### Dynamic memory allocation: 
-Pointers are essential when working with dynamic memory allocation.
-int* ptr = new int; // Allocates memory for an integer
-*ptr = 5;          // Assigns value
-delete ptr;        // Deallocates memory
+Pointers are essential when working with dynamic memory allocation. <br/>
+int* ptr = new int; // Allocates memory for an integer <br/>
+*ptr = 5;          // Assigns value <br/>
+delete ptr;        // Deallocates memory <br/>
 
 
 ## Code:
