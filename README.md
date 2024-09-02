@@ -14,7 +14,7 @@ Vs Code, Github
 Pointers are variables that hold memory address of other variables. They are crucial for handling large data structures and dynamic memory management
 
 ### Declaring a pointer:
-A pointer is declared by specifying the type of the data it points to, followed by an asterisk (*), and then the pointer variable name.For example:
+A pointer is declared by specifying the type of the data it points to, followed by an asterisk (*), and then the pointer variable name.For example: < /br>
 int* ptr;   // Pointer to an integer
 char* cptr; // Pointer to a character
 
